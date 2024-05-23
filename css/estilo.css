@@ -17,13 +17,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+}
 
 body{
   background: var(--bg-color);
 }
 
-.header {
+header {
   width: 100%;
   height: 70px;
   padding: 1rem;
@@ -76,7 +76,7 @@ section {
   align-items: center;
 }
 
-#portifolio{
+#Portifolio{
   width: 100%;
   display: flex;
   justify-content: center;
@@ -228,12 +228,12 @@ h1{
   min-width: 238px;
   padding: 0 10px;
 }
-.container form.login-entrar {
+.container form .login-entrar {
   opacity: 1;
   transition: 0.5s ease-in-out;
   transition-delay: 1s;
 }
-.container form.login-sair {
+.container form .login-sair {
   opacity: 0;
   transition: 0.5s ease-in-out;
   transition-delay: 1s;
@@ -474,5 +474,4 @@ h1{
     transform: rotate(-135deg);
     top: -7px;
   }
-}
 }
