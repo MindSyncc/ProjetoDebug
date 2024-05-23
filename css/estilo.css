@@ -1,4 +1,4 @@
-.root{
+:root{
 
   --bg-color: #0C0C23;
   /*--bg-color1: linear-gradient(70deg, blue,#0C0C23);*/
@@ -17,13 +17,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+}
 
 body {
   background: var(--bg-color);
 }
 
-.header {
+header {
   width: 100%;
   height: 70px;
   padding: 1rem;
@@ -39,15 +39,15 @@ body {
   width: 100px;
   height: 100px;
 }
-#monu {
+#menu {
   display: flex;
   list-style: none;
   gap:0.5rem;
 }
-#monu a {
+#menu a {
   display:block;
 }
-#monu a {
+#menu a {
   text-decoration: none;
   text-transform: uppercase;
   padding: 5px;
@@ -59,7 +59,7 @@ body {
   font-weight: 900;
 }
 
-#btnMobile {
+#btnmobile {
   display: none;
 }
 
@@ -163,13 +163,13 @@ h1{
   font-size: 20px;
 }
 
-.footter {
+.footer {
   width: 100%;
   height: 80px;
   background:var(--font-color);
   color: var(--accent-hover);
 }
-.footter h5 {
+.footer h5 {
   font-size: 1rem;
   display: flex;
   justify-content: center;
@@ -358,7 +358,7 @@ h1{
     /*background-image: linear-gradient(to right, #dc143c, bisque);*/
     background: var(--bg-color3);
   }
-  #btnMobile{
+  #btnmobile{
     display: flex;
     padding: 0.5rem 1rem;
     font-size: 1rem;
@@ -474,5 +474,4 @@ h1{
     transform: rotate(-135deg);
     top: -7px;
   }
-}
 }
